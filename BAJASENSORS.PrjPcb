@@ -53,7 +53,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sensors.SchDoc
+DocumentPath=Batteries.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -67,9 +67,26 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AOARMIFN
+DocumentUniqueId=OUMKRGKS
 
 [Document2]
+DocumentPath=BrakeLines.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=URSCOWRG
+
+[Document3]
 DocumentPath=Pico.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIDMWCPI
 
-[Document3]
+[Document4]
 DocumentPath=BilgeFanDriver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,23 +119,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NUYVGEVZ
-
-[Document4]
-DocumentPath=BrakeLines.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=URSCOWRG
 
 [Document5]
 DocumentPath=CVT Temperature.SchDoc
@@ -172,6 +172,23 @@ GenerateClassCluster=0
 DocumentUniqueId=JDBQDDUT
 
 [Document8]
+DocumentPath=Sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOARMIFN
+
+[Document9]
 DocumentPath=PCB_initial.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -188,7 +205,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WTBHUPDW
 
-[Document9]
+[Document10]
 DocumentPath=BAJASENSORS.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,23 +221,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document10]
-DocumentPath=Batteries.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OUMKRGKS
 
 [Configuration1]
 Name=Sources
@@ -1217,8 +1217,10 @@ PartTypes=0
 
 [NetInfos]
 Net1=NetName=5V+|NetColor=clBlack
-Net2=NetName=GND|NetColor=clBlack
-Net3=NetName=NetPower Mosfet?_1|NetColor=clBlack
+Net2=NetName=B12V+|NetColor=clBlack
+Net3=NetName=GND|NetColor=clBlack
+Net4=NetName=NetBulk Capacitor?_2|NetColor=clBlack
+Net5=NetName=NetPower Mosfet?_1|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
