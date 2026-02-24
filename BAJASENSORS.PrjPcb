@@ -87,6 +87,23 @@ GenerateClassCluster=0
 DocumentUniqueId=URSCOWRG
 
 [Document3]
+DocumentPath=EngineLines.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZTQPALUJ
+
+[Document4]
 DocumentPath=Pico.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIDMWCPI
 
-[Document4]
+[Document5]
 DocumentPath=BilgeFanDriver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,7 +137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NUYVGEVZ
 
-[Document5]
+[Document6]
 DocumentPath=CVT Temperature.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +154,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HHXPPXVD
 
-[Document6]
+[Document7]
 DocumentPath=Hall Effect.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,8 +171,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWRHKWIV
 
-[Document7]
-DocumentPath=SD Card.SchDoc
+[Document8]
+DocumentPath=IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -171,8 +188,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDBQDDUT
 
-[Document8]
-DocumentPath=Sensors.SchDoc
+[Document9]
+DocumentPath=LCD_screen.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -186,9 +203,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AOARMIFN
+DocumentUniqueId=UGPAXSXW
 
-[Document9]
+[Document10]
 DocumentPath=PCB_initial.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -205,7 +222,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WTBHUPDW
 
-[Document10]
+[Document11]
 DocumentPath=BAJASENSORS.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,6 +238,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document12]
+DocumentPath=SD_Card.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ABVFUDZY
+
+[Document13]
+DocumentPath=Sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOARMIFN
 
 [Configuration1]
 Name=Sources
