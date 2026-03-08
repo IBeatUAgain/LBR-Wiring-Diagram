@@ -259,7 +259,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WTBHUPDW
 
 [Document13]
-DocumentPath=..\..\TLV2372IP\TLV2372IP.SchLib
+DocumentPath=..\..\..\..\Downloads\RASPBERRY_PI_PICO\RASPBERRY_PI_PICO.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -273,10 +273,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=PACDVLIS
+DocumentUniqueId=EUIDOIHJ
 
 [Document14]
-DocumentPath=..\..\XT30UPB-M\XT30UPB-M.SchLib
+DocumentPath=..\..\..\..\Downloads\XT30UPB-M\XT30UPB-M.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -293,6 +293,57 @@ GenerateClassCluster=0
 DocumentUniqueId=RYYOIWHZ
 
 [Document15]
+DocumentPath=..\..\..\..\Downloads\TLV2372IP\TLV2372IP.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PACDVLIS
+
+[Document16]
+DocumentPath=..\..\TLV2372IP\TLV2372IP.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PACDVLIS
+
+[Document17]
+DocumentPath=..\..\XT30UPB-M\XT30UPB-M.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RYYOIWHZ
+
+[Document18]
 DocumentPath=Parts.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +360,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ESVDLBEK
 
-[Document16]
+[Document19]
+DocumentPath=..\..\..\..\Downloads\RASPBERRY_PI_PICO\RASPBERRY_PI_PICO.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BWKDUQUD
+
+[Document20]
+DocumentPath=..\..\..\..\Downloads\XT30UPB-M\AMASS_XT30UPB-M.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KTBARFDV
+
+[Document21]
+DocumentPath=..\..\..\..\Downloads\TLV2372IP\DIP794W45P254L959H508Q8.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GHQBXFLR
+
+[Document22]
 DocumentPath=..\..\TLV2372IP\DIP794W45P254L959H508Q8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHQBXFLR
 
-[Document17]
+[Document23]
 DocumentPath=..\..\XT30UPB-M\AMASS_XT30UPB-M.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KTBARFDV
 
-[Document18]
+[Document24]
 DocumentPath=Parts.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HAUTGHEN
 
-[Document19]
+[Document25]
 DocumentPath=Constraints.xml
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -748,6 +850,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1042,6 +1149,8 @@ Type156=1
 Type157=1
 Type158=1
 Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -1131,6 +1240,7 @@ Type84=1
 Type85=1
 Type86=1
 Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1296,6 +1406,8 @@ Type160=0
 Type161=0
 Type162=1
 Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

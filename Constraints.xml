@@ -2,7 +2,7 @@
 <ConstraintsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FlattenedNetName2ConstraintNetId>
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="12V+" ConstraintNetId="8c106377-9417-49e2-98a2-6c05bb757ca6" />
-    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GND" ConstraintNetId="628866fa-d731-4491-94bd-1b39ef6e0781" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetP1_2" ConstraintNetId="440d9e72-a853-4760-9b63-f531103841ab" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="B12V+" ConstraintNetId="89b9f3a4-2513-4965-a772-ba6d90b37fa4" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="5V+" ConstraintNetId="4dcc700c-f9ac-4245-bdf8-c54ac2b3ab87" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="3v3_OUT" ConstraintNetId="5726d65d-02c4-4b25-a3d5-cd3a452b0dbd" />
@@ -12,7 +12,10 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="Fan_Power_Mosfet" ConstraintNetId="e4622682-a4cf-465f-a1c0-b0d9cfae59f8" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetBrake Light L_1" ConstraintNetId="c757a6e3-b991-46bf-9f96-436e995852bc" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetPi Pico_32" ConstraintNetId="4f2da061-a880-4f2a-909b-7693c7b8e2c3" />
-    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetIMU_3" ConstraintNetId="d8633aa9-d0bc-448e-a847-47cbc7ed2efb" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="GND" ConstraintNetId="a77061d8-3a98-495f-849b-d0a95f63a0e6" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetP1_3" ConstraintNetId="5ade08e5-4192-462f-acf7-3eb64a503623" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetIMU_1" ConstraintNetId="40488e7c-fc5f-4da5-a834-128f72ab5d53" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetP1_1" ConstraintNetId="43200c2f-46d1-4705-b7d9-bf23a4f9f0c4" />
   </FlattenedNetName2ConstraintNetId>
   <CNets>
     <CNet Id="8c106377-9417-49e2-98a2-6c05bb757ca6">
@@ -21,7 +24,7 @@
       <ConstraintSets />
       <ConstraintNodes />
     </CNet>
-    <CNet Id="628866fa-d731-4491-94bd-1b39ef6e0781">
+    <CNet Id="440d9e72-a853-4760-9b63-f531103841ab">
       <Constraints />
       <ConstraintsEx />
       <ConstraintSets />
@@ -83,7 +86,25 @@
       <ConstraintSets />
       <ConstraintNodes />
     </CNet>
-    <CNet Id="d8633aa9-d0bc-448e-a847-47cbc7ed2efb">
+    <CNet Id="a77061d8-3a98-495f-849b-d0a95f63a0e6">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="5ade08e5-4192-462f-acf7-3eb64a503623">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="40488e7c-fc5f-4da5-a834-128f72ab5d53">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="43200c2f-46d1-4705-b7d9-bf23a4f9f0c4">
       <Constraints />
       <ConstraintsEx />
       <ConstraintSets />
